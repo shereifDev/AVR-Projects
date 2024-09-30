@@ -30,7 +30,7 @@ int main(void)
 	
     while(1)
     {
-      LED_turnOn('D',0);
+          LED_turnOn('D',0);
 	  LED_turnOn('D',1);
 	  _delay_ms(2000);
 	  LED_turnOff('D',0);
