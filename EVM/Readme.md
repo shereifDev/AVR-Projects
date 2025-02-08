@@ -1,4 +1,4 @@
-# EVO Counter Project
+# Electronic Voting Machine Project
 
 ## Overview
 This project is a simple counter application implemented on an AVR microcontroller. It uses buttons to increment counters and an LCD to display the current values. The counters can be reset to zero using a dedicated reset button.
