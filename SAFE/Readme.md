@@ -28,12 +28,13 @@ This project implements a secure safe system using an AVR microcontroller (e.g.,
 1. **Set Password**:
    - On the first run, the system will prompt you to set a new password.
    - Enter a 4-digit password and confirm it.
-   - 
+   
 ![Alt text](https://github.com/shereifDev/AVR-Projects/blob/main/SAFE/shots/Screenshot_1.png)
 
 2. **Unlock the Safe**:
    - Enter the correct 4-digit password to unlock the safe.
    - The green LED will turn on to indicate success.
+     
 ![Alt text](https://github.com/shereifDev/AVR-Projects/blob/main/SAFE/shots/Screenshot_6.png)
 
 3. **Reset the System**:
@@ -43,5 +44,5 @@ This project implements a secure safe system using an AVR microcontroller (e.g.,
 
 4. **Lockout Mechanism**:
    - If you enter the wrong password 3 times, the system will lock for 9 seconds.
-   - 
+   
 ![Alt text](https://github.com/shereifDev/AVR-Projects/blob/main/SAFE/shots/Screenshot_5.png)
