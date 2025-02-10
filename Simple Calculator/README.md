@@ -1,6 +1,3 @@
-### README File for Electronic Calculator Project
-
----
 
 #### **Project Name:**  
 Electronic Calculator using AVR Microcontroller
