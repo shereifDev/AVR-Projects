@@ -1,6 +1,6 @@
 # Digital Clock with Stopwatch and Timer 
 
-![Alt text](https://github.com/shereifDev/AVR-Projects/blob/main/RTC/shots/Screenshot%20(1).png)
+![Alt text](https://github.com/shereifDev/AVR-Projects/blob/main/RTC/shots/Screenshot%20(6).png)
 
 ## Project Description
 This project implements a multi-functional digital clock using an ATmega32 microcontroller with three main modes:
