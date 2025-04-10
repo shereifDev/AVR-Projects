@@ -1,4 +1,6 @@
-# Digital Clock with Stopwatch and Timer - ATmega32
+# Digital Clock with Stopwatch and Timer 
+
+![Alt text](https://github.com/shereifDev/AVR-Projects/blob/main/RTC/shots/Screenshot%20(1).png)
 
 ## Project Description
 This project implements a multi-functional digital clock using an ATmega32 microcontroller with three main modes:
@@ -29,20 +31,6 @@ This project implements a multi-functional digital clock using an ATmega32 micro
   - Red LED for Timer mode
   - No LED for Clock mode
 
-## Pin Configuration
-- **Port A**:
-  - PA7: Set clock button
-  - PA6: Stopwatch mode button
-  - PA5: Clock mode button
-  - PA4: Pause/Resume button
-  - PA3: Timer mode button
-  - PA2: Buzzer output
-  - PA1: Red LED (Timer indicator)
-  - PA0: Green LED (Stopwatch indicator)
-  
-- **Port B**: 7-segment display data lines
-- **Port C**: 7-segment display enable lines (PC0-PC5)
-
 ## Usage Instructions
 1. **Clock Mode** (default):
    - Press SET CLOCK (PA7) to set time using keypad
@@ -66,13 +54,4 @@ This project implements a multi-functional digital clock using an ATmega32 micro
 - Button debouncing implemented
 - Efficient mode switching between clock, stopwatch, and timer
 
-## Development Tools
-- AVR GCC compiler
-- AVRDUDE for flashing
-- Proteus for simulation (optional)
 
-## Future Enhancements
-- Add date display functionality
-- Implement multiple timer presets
-- Add lap time functionality for stopwatch
-- Include EEPROM for time persistence
